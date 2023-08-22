@@ -30,7 +30,7 @@ public class BaseAssignment {
 	/**
 	 * Quit the driver after all tests are executed
 	 */
-	@AfterClass(enabled = false)
+	@AfterClass()
 	public void tearDown() {
 		driver.quit();
 	}
